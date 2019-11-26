@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Connect"
+        android:title="Connect All"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/Disconnect"
+        android:title="Disconnect All"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/Linked"
+        android:title="Show Linked"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="withText"
+        />
+</menu>

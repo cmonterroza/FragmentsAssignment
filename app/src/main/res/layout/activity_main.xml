@@ -6,8 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/devices_recycler_view"
+        app:layoutManager="@layout/device_list_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical"
